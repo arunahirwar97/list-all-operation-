@@ -1,0 +1,17 @@
+print ("\t\t\t\t\t\tlist all operation perform \n")
+a = ['arun ','ahirwar','ravi','ahirwar ','munna ','ahirwar']
+print ("list is the : ",a)
+print("insert element in the list ")
+b =  a.append('narayan')
+print(a)
+
+print("Pop element in the list : ")
+a.pop()
+print (a)
+print ("Pop element in the list by using index number : ")
+c = int(input("Enter pop element index number : "))
+a.pop(c)
+print (a)
+print ("find length in the list ")
+d = len(a)
+print (d)
